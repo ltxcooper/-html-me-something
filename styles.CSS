@@ -1,10 +1,17 @@
 body {
 	background-color: lightblue;
 	text-align: center;
+	padding: 100px;
 }
 
 div.content {
 	text-align: center;
 }
-nav {
+
+a.navbar {
+	overflow: auto;
+	margin: 10px;
+	padding: 15px;
+	border: solid;
+	border-color: lightgrey;
 }
