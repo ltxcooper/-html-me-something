@@ -1,17 +1,65 @@
 body {
-	background-color: lightblue;
 	text-align: center;
-	padding: 100px;
+}
+
+header{
+	font-family: 'Monofett';
+	font-size: 50px;
+	background-color: lightpink;
+	padding: 20px;
+	margin-bottom: 20px;
 }
 
 div.content {
-	text-align: center;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.main_content{
+	padding-left: 200px;
+	padding-right: 200px;
 }
 
 a.navbar {
 	overflow: auto;
 	margin: 10px;
-	padding: 15px;
+	padding: 10px;
 	border: solid;
-	border-color: lightgrey;
+	border-color: lightpink;
+}
+
+section {
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+#username {
+	text-align: center;
+	color: red;
+}
+
+article.player {
+	text-align: left;
+	margin-left: 20px;
+	padding: 10px;
+}
+
+#introduction{
+	font-size: 20px;
+	margin: 20px;
+	padding: 20px;
+}
+
+img {
+	margin: 10px;
+	padding: 10px;
+	width: 50%;
+	height: 50%;
+}
+
+footer {
+    text-align: center;
+    background: pink;
+    margin-top: 20px;
+	padding: 20px;
 }
